@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gardener Website Template</title>
+    <!-- Icon Template -->
+    <link rel="icon" href="images/icon/icon-1.png">
+    <link rel="shortcut" href="images/icon/icon-1.png">
+    <link rel="apple-touch-icon" href="images/icon/icon-1.png">
+    <!-- Render All Elements to normally -->
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <!-- Open Sans Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap">
+    <!-- Jost Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <!-- My Framework -->
+    <link rel="stylesheet" href="CSS/ALEX-FW.css">
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="CSS/main.css">
+    <!-- Pages CSS File -->
+    <link rel="stylesheet" href="CSS/pages.css">
+</head>
+
+<body>
+    <!-- Start Topbar -->
+    <div class="topbar d-grid flow-column j-content-between padd-inline-x50 color1 bg-color2 padd-block-x5">
+        <div class="box d-grid gap-x30 flow-column">
+            <div class="tel d-grid flow-column a-items-center gap-x10">
+                <i class="fa-solid fa-phone"></i>
+                <span>+012 345 6789</span>
+            </div> <!-- End Tel -->
+            <div class="email d-grid flow-column a-items-center gap-x10">
+                <i class="fa-regular fa-envelope"></i>
+                <a class="color1" href="mailto:info@example.com">info@example.com</a>
+            </div> <!-- End Email -->
+        </div> <!-- End box -->
+        <div class="follow-us d-grid flow-column a-items-center gap-x5 t-capitalize">
+            follow us:
+            <div class="box d-grid flow-column a-items-center gap-x5">
+                <a class="color1 b-radius-x5 trans-500ms shadow-1" href=""><i
+                        class="fa-brands fa-facebook-f w-x35px h-x40px d-grid p-content-center"></i></a>
+                <a class="color1 b-radius-x5 trans-500ms shadow-1" href=""><i
+                        class="fa-brands fa-twitter w-x35px h-x40px d-grid p-content-center"></i></a>
+                <a class="color1 b-radius-x5 trans-500ms shadow-1" href=""><i
+                        class="fa-brands fa-linkedin-in w-x35px h-x40px d-grid p-content-center"></i></a>
+                <a class="color1 b-radius-x5 trans-500ms shadow-1" href=""><i
+                        class="fa-brands fa-instagram w-x35px h-x40px d-grid p-content-center"></i></a>
+            </div>
+        </div> <!-- End Follow US -->
+    </div> <!-- End Topbar -->
+    <!-- Start Header -->
+    <header class="header padd-left-x50 d-grid flow-column j-content-between p-sticky top-x0 index-1">
+        <h1 class="marg-block-x15"><a class="color2 t-capitalize fs-x40" href="index.html">gardener</a></h1>
+        <nav class="d-grid flow-column gap-x40">
+            <input class="d-none" type="checkbox" id="menu">
+            <button class="d-none -a-items-center marg-right-x30 b-radius-x5 a-self-center trans-250ms">
+                <label class="fa-solid fa-bars fs-x32 padd-inline-x15 b-radius-x5 c-pointer" for="menu"></label>
+            </button>
+            <ul class="nav d-grid flow-column gap-x30">
+                <li><a class="d-grid a-items-center h-x100 t-capitalize fw-500 color2 trans-250ms fs-x18"
+                        href="index.html">home</a></li>
+                <li><a class="d-grid a-items-center h-x100 t-capitalize fw-500 color2 trans-250ms fs-x18"
+                        href="about.html">about</a></li>
+                <li><a class="d-grid a-items-center h-x100 t-capitalize fw-500 color2 trans-250ms fs-x18"
+                        href="services.html">services</a></li>
+                <li><a class="d-grid a-items-center h-x100 t-capitalize fw-500 color2 trans-250ms fs-x18"
+                        href="projects.html">projects</a></li>
+                <li class="p-relative">
+                    <input type="checkbox" class="d-none" id="pages-menu">
+                    <label for="pages-menu"
+                        class="active d-grid flow-column gap-x5 a-items-center h-x100 t-capitalize fw-500 color2 trans-250ms c-pointer select-none fs-x18">
+                        pages
+                        <i class="fa-solid fa-angle-down fs-x16"></i>
+                    </label>
+                    <ul
+                        class="pages-menu t-capitalize bg-color6 padd-block-x5 line-1-5 b-radius-x5 p-absolute trans-500ms v-hidden opacity-0">
+                        <li><a class="fw-500 padd-inline-x15 padd-block-x5 d-block color2"
+                                href="features.html">features</a></li>
+                        <li><a class="fw-500 padd-inline-x15 padd-block-x5 d-block color2" href="free-quote.html">free
+                                quote</a></li>
+                        <li><a class="fw-500 padd-inline-x15 padd-block-x5 d-block color2" href="our-team.html">our
+                                team</a></li>
+                        <li><a class="active-menu fw-500 padd-inline-x15 padd-block-x5 d-block color2"
+                                href="testimonial.html">testimonial</a></li>
+                        <li><a class="fw-500 padd-inline-x15 padd-block-x5 d-block color2" href="404-page.html">404
+                                page</a></li>
+                    </ul> <!-- End Pages Menu -->
+                </li>
+                <li><a class="d-grid a-items-center h-x100 t-capitalize fs-x18 fw-500 color2 trans-250ms fs-x18"
+                        href="contact.html">contact</a></li>
+            </ul> <!-- End .nav -->
+            <a class="quote color1 bg-color4 d-grid flow-column a-items-center gap-x15 t-capitalize h-x100 padd-inline-x30 fw-500 trans-500ms hover-color shadow-1"
+                href="">
+                get a quote
+                <i class="fa-solid fa-arrow-right fs-x18"></i>
+            </a> <!-- End Quote -->
+        </nav> <!-- End Nav -->
+    </header> <!-- End Header -->
+    <!-- Start Section Home -->
+    <div class="section-home d-grid o-hidden p-relative index-0 marg-bottom-x50">
+        <input class="d-none" type="radio" id="left" name="move" checked>
+        <label
+            class="d-none fa-solid fa-chevron-left p-center-y index-1 bg-color4 color3 fs-x24 w-x50px h-x50px b-radius-circle d-grid p-content-center opacity-0-5 c-pointer trans-250ms"
+            for="left">
+        </label>
+        <input class="d-none" type="radio" name="move" id="right">
+        <label
+            class="d-none fa-solid fa-chevron-right p-center-y index-1 bg-color4 color3 fs-x24 w-x50px h-x50px b-radius-circle d-grid p-content-center opacity-0-5 c-pointer trans-250ms"
+            for="right">
+        </label>
+        <div class="box-1 p-relative index-0">
+            <img class="w-x100 h-x100 o-cover select-none" src="images/carousel-1.jpg" alt="carousel-1">
+            <div class="text p-center t-capitalize text-center w-x60 index-1">
+                <h2 class="color3 fs-x80">testimonial</h2>
+                <ul class="breadcrumbs d-grid flow-column j-content-center gap-x10 marg-top-x25">
+                    <li><a class="color1 fs-x18" href="#">home</a></li>
+                    <li class="d-grid flow-column gap-x10 a-items-center"><a class="color1 fs-x18" href="#">pages</a>
+                    </li>
+                    <li><a class="color1 fs-x18 p-events-none" href="#">testimonial</a></li>
+                </ul> <!-- End Breadcrumbs -->
+            </div><!-- End Text -->
+        </div> <!-- End Box 1 -->
+    </div> <!-- End Section Home -->
+    <!-- Start Testimonial -->
+    <div class="testimonial padd-section">
+        <div class="container d-grid a-items-start gap-x50">
+            <div class="box d-grid gap-x20">
+                <span class="color4 fw-700 fs-x18 t-capitalize">testimonial</span>
+                <h3 class="fs-x50 t-capitalize color2">what our clients say about us!</h3>
+                <p class="color9 line-1-5">
+                    Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat
+                    ipsum et lorem et sit sed stet lorem sit clita duo justo.
+                </p>
+                <button class="button-1 hover-color shadow-2 marg-top-x10 c-pointer">see more</button>
+            </div> <!-- End Box -->
+            <div class="box p-relative">
+                <input class="d-none" type="radio" name="testimonial" id="start" checked>
+                <input class="d-none" type="radio" name="testimonial" id="end">
+                <div class="labels p-absolute left-x0 d-grid flow-column gap-x15">
+                    <label
+                        class="fa-solid fa-chevron-left color4 bg-color1 w-x45px h-x45px d-grid p-content-center fs-x20 c-pointer b-radius-x3 trans-500ms"
+                        for="start"></label>
+                    <label
+                        class="fa-solid fa-chevron-right color4 bg-color1 w-x45px h-x45px d-grid p-content-center fs-x20 c-pointer b-radius-x3 trans-500ms"
+                        for="end"></label>
+                </div>
+                <div class="container-testimonial d-grid o-hidden">
+                    <div class="testimonial-1 d-grid gap-x10 padd-inline-x10 trans-1s">
+                        <div class="image">
+                            <img class=" b-radius-x3" src="images/testimonial-1.jpg" alt="testimonial-1">
+                        </div> <!-- End Image -->
+                        <p class="line-1-5 fs-x18">
+                            Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At
+                            lorem
+                            lorem magna ut et, nonumy et labore et tempor diam tempor erat.
+                        </p>
+                        <h3 class="t-capitalize color2 fs-x24 fw-600">client name</h3>
+                        <span class="t-capitalize color9">profession</span>
+                    </div> <!-- End Testimonial 1 -->
+                    <div class="testimonial-2 d-grid gap-x10 padd-inline-x10 trans-1s">
+                        <div class="image">
+                            <img class=" b-radius-x3" src="images/testimonial-2.jpg" alt="testimonial-2">
+                        </div> <!-- End Image -->
+                        <p class="line-1-5 fs-x18">
+                            Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At
+                            lorem
+                            lorem magna ut et, nonumy et labore et tempor diam tempor erat.
+                        </p>
+                        <h3 class="t-capitalize color2 fs-x24 fw-600">client name</h3>
+                        <span class="t-capitalize color9">profession</span>
+                    </div> <!-- End Testimonial 2 -->
+                </div>
+            </div> <!-- End Box -->
+        </div> <!-- End Container -->
+    </div> <!-- End Testimonial -->
+    <!-- Start button To Top -->
+    <div class="to-top f-right marg-right-x30 p-sticky index-1">
+        <a class="fa-solid fa-arrow-up-long w-x50px h-x50px d-grid p-content-center bg-color4 color1 b-radius-circle fs-x18 trans-500ms"
+            href="#"></a>
+    </div><!-- End button To Top -->
+    <!-- Start Footer -->
+    <footer class="footer bg-color2 marg-top-x50">
+        <div class="container d-grid gap-x50">
+            <div class="our-office">
+                <h4 class="t-capitalize color3 fs-x24 marg-bottom-x30">our office</h4>
+                <div class="location d-grid flow-column j-content-start gap-x15 color1 fw-500 a-items-center">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span class="t-capitalize">123 street, new york, <span class="t-uppercase">usa</span></span>
+                </div> <!-- End Location -->
+                <div
+                    class="phone d-grid flow-column j-content-start gap-x15 color1 fw-500 a-items-center marg-block-x15">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+012 345 67890</span>
+                </div> <!-- End Phone -->
+                <div class="email d-grid flow-column j-content-start gap-x15 color1 fw-500 a-items-center">
+                    <i class="fa-solid fa-envelope"></i>
+                    <a class="color3" href="mailto:info@example.com">info@example.com</a>
+                </div> <!-- End Email -->
+                <ul class="links d-grid flow-column j-content-start gap-x10 marg-top-x20">
+                    <li><a class="w-x40px h-x40px b-radius-circle color1 b-width-1px b-solied d-grid p-content-center trans-500ms"
+                            href=""><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a class="w-x40px h-x40px b-radius-circle color1 b-width-1px b-solied d-grid p-content-center trans-500ms"
+                            href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a class="w-x40px h-x40px b-radius-circle color1 b-width-1px b-solied d-grid p-content-center trans-500ms"
+                            href=""><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a class="w-x40px h-x40px b-radius-circle color1 b-width-1px b-solied d-grid p-content-center trans-500ms"
+                            href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                </ul> <!-- End Links -->
+            </div> <!-- End Our Office -->
+            <div class="services">
+                <h4 class="t-capitalize color3 fs-x24 marg-bottom-x30">services</h4>
+                <ul class="d-grid gap-x15 t-capitalize">
+                    <li><a class="color1 d-grid flow-column j-content-start a-items-center gap-x10 fw-500 trans-250ms shadow-3 b-radius-x3"
+                            href="">landscaping</a></li>
+                    <li><a class="color1 d-grid flow-column j-content-start a-items-center gap-x10 fw-500 trans-250ms shadow-3 b-radius-x3"
+                            href="">pruning plants</a></li>
+                    <li><a class="color1 d-grid flow-column j-content-start a-items-center gap-x10 fw-500 trans-250ms shadow-3 b-radius-x3"
+                            href="">urban gardening</a></li>
+                    <li><a class="color1 d-grid flow-column j-content-start a-items-center gap-x10 fw-500 trans-250ms shadow-3 b-radius-x3"
+                            href="">garden maintenance</a></li>
+                    <li><a class="color1 d-grid flow-column j-content-start a-items-center gap-x10 fw-500 trans-250ms shadow-3 b-radius-x3"
+                            href="">green technology</a></li>
+                </ul>
+            </div> <!-- End Services -->
+            <div class="quick-links">
+                <h4 class="t-capitalize color3 fs-x24 marg-bottom-x30">quick links</h4>
+                <ul class="d-grid gap-x15 t-capitalize">
+                    <li><a class="color1 d-grid flow-column j-content-start a-items-center gap-x10 fw-500 trans-250ms shadow-3 b-radius-x3"
+                            href="">about us</a></li>
+                    <li><a class="color1 d-grid flow-column j-content-start a-items-center gap-x10 fw-500 trans-250ms shadow-3 b-radius-x3"
+                            href="">contact us</a></li>
+                    <li><a class="color1 d-grid flow-column j-content-start a-items-center gap-x10 fw-500 trans-250ms shadow-3 b-radius-x3"
+                            href="">our services</a></li>
+                    <li><a class="color1 d-grid flow-column j-content-start a-items-center gap-x10 fw-500 trans-250ms shadow-3 b-radius-x3"
+                            href="">terms & condition</a></li>
+                    <li><a class="color1 d-grid flow-column j-content-start a-items-center gap-x10 fw-500 trans-250ms shadow-3 b-radius-x3"
+                            href="">support</a></li>
+                </ul>
+            </div> <!-- End Quick Links -->
+            <div class="newsletter">
+                <h4 class="t-capitalize color3 fs-x24 marg-bottom-x30">newsletter</h4>
+                <p class="color1 line-1-5 marg-bottom-x20">Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                <form class="p-relative">
+                    <input class="bg-color1 w-x100 padd-block-x20 padd-inline-x25 b-radius-x3 shadow-3 trans-250ms"
+                        type="email" placeholder="Your email">
+                    <input class="button-1 hover-color shadow-2 c-pointer p-absolute p-center-y right-x10px"
+                        type="button" value="SignUp">
+                </form>
+            </div>
+        </div> <!-- End Container -->
+    </footer> <!-- End Footer -->
+    <!-- Start Copyright -->
+    <div class="copyright bg-color2 padd-block-x25">
+        <div class="container d-grid flow-column j-content-between color1 t-capitalize fw-500">
+            <div class="site line-1-5">
+                &#169;
+                <a class="color1" href="">your site name,</a>
+                all right reserved.
+            </div> <!-- End Site -->
+            <div class="codex">
+                designed by
+                <a class="color1" href="https://htmlcodex.com/" target="_blank"><span class="t-uppercase">html</span>
+                    codex</a>
+            </div> <!-- End Codex -->
+        </div> <!-- End Container -->
+    </div> <!-- End Copyright -->
+</body>

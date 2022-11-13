@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gardener Website Template</title>
+    <!-- Icon Template -->
+    <link rel="icon" href="images/icon/icon-1.png">
+    <link rel="shortcut" href="images/icon/icon-1.png">
+    <link rel="apple-touch-icon" href="images/icon/icon-1.png">
+    <!-- Render All Elements to normally -->
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <!-- Open Sans Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap">
+    <!-- Jost Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <!-- My Framework -->
+    <link rel="stylesheet" href="CSS/ALEX-FW.css">
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+
+<body>
+    <!-- Start Topbar -->
+    <div class="topbar d-grid flow-column j-content-between padd-inline-x50 color1 bg-color2 padd-block-x5">
+        <div class="box d-grid gap-x30 flow-column">
+            <div class="tel d-grid flow-column a-items-center gap-x10">
+                <i class="fa-solid fa-phone"></i>
+                <span>+012 345 6789</span>
+            </div> <!-- End Tel -->
+            <div class="email d-grid flow-column a-items-center gap-x10">
+                <i class="fa-regular fa-envelope"></i>
+                <a class="color1" href="mailto:info@example.com">info@example.com</a>
+            </div> <!-- End Email -->
+        </div> <!-- End box -->
+        <div class="follow-us d-grid flow-column a-items-center gap-x5 t-capitalize">
+            follow us:
+            <div class="box d-grid flow-column a-items-center gap-x5">
+                <a class="color1 b-radius-x5 trans-500ms shadow-1" href=""><i
+                        class="fa-brands fa-facebook-f w-x35px h-x40px d-grid p-content-center"></i></a>
+                <a class="color1 b-radius-x5 trans-500ms shadow-1" href=""><i
+                        class="fa-brands fa-twitter w-x35px h-x40px d-grid p-content-center"></i></a>
+                <a class="color1 b-radius-x5 trans-500ms shadow-1" href=""><i
+                        class="fa-brands fa-linkedin-in w-x35px h-x40px d-grid p-content-center"></i></a>
+                <a class="color1 b-radius-x5 trans-500ms shadow-1" href=""><i
+                        class="fa-brands fa-instagram w-x35px h-x40px d-grid p-content-center"></i></a>
+            </div>
+        </div> <!-- End Follow US -->
+    </div> <!-- End Topbar -->
+    <!-- Start Header -->
+    <header class="header padd-left-x50 d-grid flow-column j-content-between p-sticky top-x0 index-1">
+        <h1 class="marg-block-x15"><a class="color2 t-capitalize fs-x40" href="index.html">gardener</a></h1>
+        <nav class="d-grid flow-column gap-x40">
+            <input class="d-none" type="checkbox" id="menu">
+            <button class="d-none -a-items-center marg-right-x30 b-radius-x5 a-self-center trans-250ms">
+                <label class="fa-solid fa-bars fs-x32 padd-inline-x15 b-radius-x5 c-pointer" for="menu"></label>
+            </button>
+            <ul class="nav d-grid flow-column gap-x30">
+                <li><a class="active d-grid a-items-center h-x100 t-capitalize fw-500 color2 trans-250ms fs-x18"
+                        href="index.html">home</a></li>
+                <li><a class="d-grid a-items-center h-x100 t-capitalize fw-500 color2 trans-250ms fs-x18"
+                        href="about.html">about</a></li>
+                <li><a class="d-grid a-items-center h-x100 t-capitalize fw-500 color2 trans-250ms fs-x18"
+                        href="services.html">services</a></li>
+                <li><a class="d-grid a-items-center h-x100 t-capitalize fw-500 color2 trans-250ms fs-x18"
+                        href="projects.html">projects</a></li>
+                <li class="p-relative">
+                    <input type="checkbox" class="d-none" id="pages-menu">
+                    <label for="pages-menu"
+                        class="d-grid flow-column gap-x5 a-items-center h-x100 t-capitalize fw-500 color2 trans-250ms c-pointer select-none fs-x18">
+                        pages
+                        <i class="fa-solid fa-angle-down fs-x16"></i>
+                    </label>
+                    <ul
+                        class="pages-menu t-capitalize bg-color6 padd-block-x5 line-1-5 b-radius-x5 p-absolute trans-500ms v-hidden opacity-0">
+                        <li><a class="fw-500 padd-inline-x15 padd-block-x5 d-block color2"
+                                href="features.html">features</a></li>
+                        <li><a class="fw-500 padd-inline-x15 padd-block-x5 d-block color2" href="free-quote.html">free
+                                quote</a></li>
+                        <li><a class="fw-500 padd-inline-x15 padd-block-x5 d-block color2" href="our-team.html">our
+                                team</a></li>
+                        <li><a class="fw-500 padd-inline-x15 padd-block-x5 d-block color2"
+                                href="testimonial.html">testimonial</a></li>
+                        <li><a class="fw-500 padd-inline-x15 padd-block-x5 d-block color2" href="404-page.html">404
+                                page</a></li>
+                    </ul> <!-- End Pages Menu -->
+                </li>
+                <li><a class="d-grid a-items-center h-x100 t-capitalize fs-x18 fw-500 color2 trans-250ms fs-x18"
+                        href="contact.html">contact</a></li>
+            </ul> <!-- End .nav -->
+            <a class="quote color1 bg-color4 d-grid flow-column a-items-center gap-x15 t-capitalize h-x100 padd-inline-x30 fw-500 trans-500ms hover-color shadow-1"
+                href="">
+                get a quote
+                <i class="fa-solid fa-arrow-right fs-x18"></i>
+            </a> <!-- End Quote -->
+        </nav> <!-- End Nav -->
+    </header> <!-- End Header -->
+    <!-- Start Section Home -->
+    <div class="section-home d-grid o-hidden p-relative index-0 marg-bottom-x50">
+        <input class="d-none" type="radio" id="left" name="move" checked>
+        <label
+            class="fa-solid fa-chevron-left p-center-y index-1 bg-color4 color3 fs-x24 w-x50px h-x50px b-radius-circle d-grid p-content-center opacity-0-5 c-pointer trans-250ms"
+            for="left">
+        </label>
+        <input class="d-none" type="radio" name="move" id="right">
+        <label
+            class="fa-solid fa-chevron-right p-center-y index-1 bg-color4 color3 fs-x24 w-x50px h-x50px b-radius-circle d-grid p-content-center opacity-0-5 c-pointer trans-250ms"
+            for="right">
+        </label>
+        <div class="box-1 p-relative index-0">
+            <img class="w-x100 h-x100 o-cover select-none" src="images/carousel-1.jpg" alt="carousel-1">
+            <div class="text p-center t-capitalize text-center w-x60 index-1">
+                <h2 class="color3 fs-x80">make your home like garden</h2>
+                <a class="button-1 shadow-2 hover-color marg-top-x50" href="">explore more</a>
+            </div><!-- End Text -->
+        </div> <!-- End Box 1 -->
+        <div class="box-2 p-relative index-0">
+            <img class="w-x100 h-x100 o-cover select-none" src="images/carousel-2.jpg" alt="carousel-2">
+            <div class="text p-center t-capitalize text-center w-x50 index-1">
+                <h2 class="color3 fs-x80">create your own small garden at home</h2>
+                <a class="button-1 shadow-2 hover-color marg-top-x50" href="">explore more</a>
+            </div><!-- End Text -->
+        </div> <!-- End Box 2 -->
+    </div> <!-- End Section Home -->
+    <!-- Start Top Feature -->
+    <div class="top-feature padd-section p-relative">
+        <div class="container padd-section d-grid flow-column">
+            <div class="cost d-grid gap-x15 bg-color3 padd-x40">
+                <i
+                    class="fa-solid fa-xmark fs-x18 d-grid p-content-center bg-color1 color4 b-radius-circle w-x50px h-x50px"></i>
+                <div class="text">
+                    <h3 class="t-capitalize color2 fs-x24 marg-bottom-x5">no hidden cost</h3>
+                    <p class="line-1-5 color9">Clita erat ipsum lorem sit sed stet duo justo</p>
+                </div> <!-- End Text -->
+            </div> <!-- End Cost -->
+            <div class="team d-grid gap-x15 bg-color3 padd-x40">
+                <i
+                    class="fa-solid fa-users fs-x18 d-grid p-content-center bg-color1 color4 b-radius-circle w-x50px h-x50px"></i>
+                <div class="text">
+                    <h3 class="t-capitalize color2 fs-x24 marg-bottom-x5">dedicated team</h3>
+                    <p class="line-1-5 color9">Clita erat ipsum lorem sit sed stet duo justo</p>
+                </div> <!-- End Text -->
+            </div> <!-- End Team -->
+            <div class="available d-grid gap-x15 bg-color3 padd-x40">
+                <i
+                    class="fa-solid fa-phone-flip fs-x18 d-grid p-content-center bg-color1 color4 b-radius-circle w-x50px h-x50px"></i>
+                <div class="text">
+                    <h3 class="t-capitalize color2 fs-x24 marg-bottom-x5">24/7 available</h3>
+                    <p class="line-1-5 color9">Clita erat ipsum lorem sit sed stet duo justo</p>
+                </div> <!-- End Text -->
+            </div> <!-- End Available -->
+        </div> <!-- End Container -->
+    </div> <!-- End Top Feature -->
+    <!-- Start About -->
+    <div class="about padd-section">
+        <div class="container d-grid gap-x45 a-items-end">
+            <div class="image d-grid">
+                <img class="w-x100" src="images/about.jpg" alt="about">
+            </div> <!-- End Image -->
+            <div class="box d-grid gap-x15">
+                <span class="fs-x80 color4 fw-700">25</span>
+                <span class="color4 fw-500 t-capitalize">year of experience</span>
+                <h3 class="fs-x50 t-capitalize color2 marg-block-x10">we make your home like a garden</h3>
+                <p class="color9 line-1-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
+                    diam et eos. Clita erat
+                    ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                <a class="button-1 hover-color shadow-2 marg-top-x10" href="">explore more</a>
+            </div> <!-- End box -->
+            <div class="box d-grid gap-x50">
+                <div class="winner d-grid gap-x20 padd-inline-x20">
+                    <i class="fa-solid fa-award color4 fs-x45"></i>
+                    <h3 class="color2 t-capitalize fs-x24">award winning</h3>
+                    <p class="color9 line-1-5">Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo
+                        magna</p>
+                </div> <!-- End Winner -->
+                <div class="team d-grid gap-x20 padd-inline-x20">
+                    <i class="fa-solid fa-users color4 fs-x45"></i>
+                    <h3 class="color2 t-capitalize fs-x24">dedicated team</h3>
+                    <p class="color9 line-1-5">Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo
+                        magna</p>
+                </div> <!-- End Team -->
+            </div> <!-- End Box -->
+        </div> <!-- End Container -->
+    </div> <!-- End About -->
+    <!-- Start button To Top -->
+    <div class="to-top f-right marg-right-x30 p-sticky index-1">
+        <a class="fa-solid fa-arrow-up-long w-x50px h-x50px d-grid p-content-center bg-color4 color1 b-radius-circle fs-x18 trans-500ms" href="#"></a>
+    </div><!-- End button To Top -->
+    <!-- Start Facts -->
+    <div class="facts padd-section marg-block-x50">
+        <div class="container d-grid flow-column text-center padd-block-x15">
+            <div class="box-1 d-grid gap-x10 padd-block-x40">
+                <h3 class="color3 fs-x55">1234</h3>
+                <span class="fs-x20 t-capitalize color1">happy clients</span>
+            </div> <!-- End box 1 -->
+            <div class="box-2 d-grid gap-x10 padd-block-x40">
+                <h3 class="color3 fs-x55">1234</h3>
+                <span class="fs-x20 t-capitalize color1">garden complated</span>
+            </div> <!-- End box 2 -->
+            <div class="box-3 d-grid gap-x10 padd-block-x40">
+                <h3 class="color3 fs-x55">1234</h3>
+                <span class="fs-x20 t-capitalize color1">dedicated staff</span>
+            </div> <!-- End box 3 -->
+            <div class="box-4 d-grid gap-x10 padd-block-x40">
+                <h3 class="color3 fs-x55">1234</h3>
+                <span class="fs-x20 t-capitalize color1">awards achieved</span>
+            </div> <!-- End box 4 -->
+        </div>
+    </div> <!-- End Facts -->
+    <!-- Start Feature -->
+    <div class="feature padd-section">
+        <div class="container d-grid a-items-center gap-x50">
+            <div class="section-1 d-grid gap-x20">
+                <span class="color4 fw-700 fs-x18 t-capitalize">why choosing us!</span>
+                <h3 class="fs-x50 t-capitalize color2">few reasons why people choosing us!</h3>
+                <p class="color9 line-1-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
+                    diam et eos. Clita erat
+                    ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                </p>
+                <a class="button-1 hover-color shadow-2 marg-top-x10" href="">explore more</a>
+            </div> <!-- End Section 1 -->
+            <div class="section-2 d-grid gap-x25">
+                <div
+                    class="check d-grid gap-x25 p-content-center p-items-center text-center b-radius-x5 padd-block-x50">
+                    <i
+                        class="fa-solid fa-check bg-color1 w-x85px h-x85px d-grid p-content-center color4 fs-x50 b-radius-circle"></i>
+                    <h3 class="t-capitalize color2 fs-x24 fw-600">100% satisfaction</h3>
+                </div> <!-- End Check -->
+                <div
+                    class="tools d-grid gap-x25 p-content-center p-items-center text-center b-radius-x5 padd-block-x50 a-self-center">
+                    <i
+                        class="fa-solid fa-screwdriver-wrench bg-color1 w-x85px h-x85px d-grid p-content-center color4 fs-x50 b-radius-circle"></i>
+                    <h3 class="t-capitalize color2 fs-x24 fw-600">modern equipment</h3>
+                </div> <!-- End Tools -->
+                <div
+                    class="users d-grid gap-x25 p-content-center p-items-center text-center b-radius-x5 padd-block-x50">
+                    <i
+                        class="fa-solid fa-users bg-color1 w-x85px h-x85px d-grid p-content-center color4 fs-x50 b-radius-circle"></i>
+                    <h3 class="t-capitalize color2 fs-x24 fw-600">dedicated team</h3>
+                </div> <!-- End Users -->
+            </div> <!-- End Section 2 -->
+        </div> <!-- End Container -->
+    </div> <!-- End Feature -->
+    <!-- Start Services -->
+    <div class="services padd-section">
+        <div class="section-header">
+            <span>our services</span>
+            <h3>services that we offer for you</h3>
+        </div> <!-- End Section Header -->
+        <div class="container d-grid gap-x25 text-center">
+            <div class="landscaping box d-grid p-items-center gap-x20 trans-500ms p-relative index-0 padd-block-x50">
+                <div class="image p-absolute index-m1 w-x100 h-x100">
+                    <img class="w-x100 h-x100 select-none o-cover trans-250ms" src="images/service-1.jpg"
+                        alt="service-1">
+                </div>
+                <div class="icon w-x100px h-x100px b-radius-circle trans-250ms d-grid p-content-center">
+                    <img src="images/icon/icon-3.png" alt="icon-3">
+                </div> <!-- End Icon -->
+                <h3 class="color2 fs-x24 t-capitalize trans-250ms">landscaping</h3>
+                <p class="color9 line-1-5 trans-250ms padd-inline-x50">
+                    Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.
+                </p>
+                <a class="shadow-3 color2 t-capitalize bg-color1 o-hidden w-nowrap d-grid flow-column fw-500 trans-250ms"
+                    href="">
+                    <i class="fa-solid fa-plus color4 p-self-center d-grid p-content-center"></i>
+                    read more
+                </a>
+            </div> <!-- End Landscaping -->
+            <div class="pruning-plants box d-grid p-items-center gap-x20 trans-500ms p-relative index-0 padd-block-x50">
+                <div class="image p-absolute index-m1 w-x100 h-x100">
+                    <img class="w-x100 h-x100 select-none o-cover trans-250ms" src="images/service-2.jpg"
+                        alt="service-2">
+                </div>
+                <div class="icon w-x100px h-x100px b-radius-circle trans-250ms d-grid p-content-center">
+                    <img src="images/icon/icon-6.png" alt="icon-6">
+                </div> <!-- End Icon -->
+                <h3 class="color2 fs-x24 t-capitalize trans-250ms">pruning plants</h3>
+                <p class="color9 line-1-5 trans-250ms padd-inline-x50">
+                    Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.
+                </p>
+                <a class="shadow-3 color2 t-capitalize bg-color1 o-hidden w-nowrap d-grid flow-column fw-500 trans-250ms"
+                    href="">
+                    <i class="fa-solid fa-plus color4 p-self-center d-grid p-content-center"></i>
+                    read more
+                </a>
+            </div> <!-- End Pruning Plants -->
+            <div class="irrigation-drainage box d-grid p-items-center gap-x20 trans-500ms p-relative index-0 padd-block-x50">
+                <div class="image p-absolute index-m1 w-x100 h-x100">
+                    <img class="w-x100 h-x100 select-none o-cover trans-250ms" src="images/service-3.jpg"
+                        alt="service-3">
+                </div>
+                <div class="icon w-x100px h-x100px b-radius-circle trans-250ms d-grid p-content-center">
+                    <img src="images/icon/icon-5.png" alt="icon-5">
+                </div> <!-- End Icon -->
+                <h3 class="color2 fs-x24 t-capitalize trans-250ms">irrigation & drainage</h3>
+                <p class="color9 line-1-5 trans-250ms padd-inline-x50">
+                    Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.
+                </p>
+                <a class="shadow-3 color2 t-capitalize bg-color1 o-hidden w-nowrap d-grid flow-column fw-500 trans-250ms"
+                    href="">
+                    <i class="fa-solid fa-plus color4 p-self-center d-grid p-content-center"></i>
+                    read more
+                </a>
+            </div> <!-- End Irrigation & Drainage -->
+            <div class="garden-maintenance box d-grid p-items-center gap-x20 trans-500ms p-relative index-0 padd-block-x50">
+                <div class="image p-absolute index-m1 w-x100 h-x100">
+                    <img class="w-x100 h-x100 select-none o-cover trans-250ms" src="images/service-4.jpg"
+                        alt="service-4">
+                </div>
+                <div class="icon w-x100px h-x100px b-radius-circle trans-250ms d-grid p-content-center">
+                    <img src="images/icon/icon-4.png" alt="icon-4">
+                </div> <!-- End Icon -->
+                <h3 class="color2 fs-x24 t-capitalize trans-250ms">garden maintenance</h3>
+                <p class="color9 line-1-5 trans-250ms padd-inline-x50">
+                    Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.
+                </p>
+                <a class="shadow-3 color2 t-capitalize bg-color1 o-hidden w-nowrap d-grid flow-column fw-500 trans-250ms"
+                    href="">
+                    <i class="fa-solid fa-plus color4 p-self-center d-grid p-content-center"></i>
+                    read more
+                </a>
+            </div> <!-- End Garden Maintenance -->
+            <div class="green-technology box d-grid p-items-center gap-x20 trans-500ms p-relative index-0 padd-block-x50">
+                <div class="image p-absolute index-m1 w-x100 h-x100">
+                    <img class="w-x100 h-x100 select-none o-cover trans-250ms" src="images/service-5.jpg"
+                        alt="service-5">
+                </div>
+                <div class="icon w-x100px h-x100px b-radius-circle trans-250ms d-grid p-content-center">
+                    <img src="images/icon/icon-8.png" alt="icon-8">
+                </div> <!-- End Icon -->
+                <h3 class="color2 fs-x24 t-capitalize trans-250ms">green technology</h3>
+                <p class="color9 line-1-5 trans-250ms padd-inline-x50">
+                    Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.
+                </p>
+                <a class="shadow-3 color2 t-capitalize bg-color1 o-hidden w-nowrap d-grid flow-column fw-500 trans-250ms"
+                    href="">
+                    <i class="fa-solid fa-plus color4 p-self-center d-grid p-content-center"></i>
+                    read more
+                </a>
+            </div> <!-- End Green Technology -->
+            <div class="urban-gardening box d-grid p-items-center gap-x20 trans-500ms p-relative index-0 padd-block-x50">
+                <div class="image p-absolute index-m1 w-x100 h-x100">
+                    <img class="w-x100 h-x100 select-none o-cover trans-250ms" src="images/service-6.jpg"
+                        alt="service-6">
+                </div>
+                <div class="icon w-x100px h-x100px b-radius-circle trans-250ms d-grid p-content-center">
+                    <img src="images/icon/icon-2.png" alt="icon-2">
+                </div> <!-- End Icon -->
+                <h3 class="color2 fs-x24 t-capitalize trans-250ms">urban gardening</h3>
+                <p class="color9 line-1-5 trans-250ms padd-inline-x50">
+                    Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.
+                </p>
+                <a class="shadow-3 color2 t-capitalize bg-color1 o-hidden w-nowrap d-grid flow-column fw-500 trans-250ms"
+                    href="">
+                    <i class="fa-solid fa-plus color4 p-self-center d-grid p-content-center"></i>
+                    read more
+                </a>
+            </div> <!-- End Urban Gardening -->
+        </div> <!-- End Container -->
+    </div> <!-- End Services -->
+    <!-- Start Section Quote -->
+    <div class="section-quote p-relative index-0">
+        <div class="container">
+            <form class="marg-auto d-grid gap-x15 bg-color3 padd-x50 b-radius-x5">
+                <h3 class="t-capitalize fs-x50 text-center color2 marg-bottom-x40">get a free quote</h3>
+                <div class="username p-relative">
+                    <input class="w-x100 padd-top-x30 padd-bottom-x10 padd-inline-x15 bg-color1 shadow-3 color9"
+                        type="username" placeholder="your name">
+                    <span
+                        class="trans-250ms p-events-none p-absolute top-x0 left-x0 t-capitalize color9 padd-block-x10 padd-inline-x15 opacity-0-7">your
+                        name</span>
+                </div> <!-- End Username -->
+                <div class="email p-relative">
+                    <input class="w-x100 padd-top-x30 padd-bottom-x10 padd-inline-x15 bg-color1 shadow-3 color9"
+                        type="email" placeholder="your email">
+                    <span
+                        class="trans-250ms p-events-none p-absolute top-x0 left-x0 t-capitalize color9 padd-block-x10 padd-inline-x15 opacity-0-7">your
+                        email</span>
+                </div> <!-- End Email -->
+                <div class="mobile p-relative">
+                    <input class="w-x100 padd-top-x30 padd-bottom-x10 padd-inline-x15 bg-color1 shadow-3 color9"
+                        type="tel" placeholder="your mobile">
+                    <span
+                        class="trans-250ms p-events-none p-absolute top-x0 left-x0 t-capitalize color9 padd-block-x10 padd-inline-x15 opacity-0-7">your
+                        mobile</span>
+                </div> <!-- End Mobile -->
+                <div class="service p-relative">
+                    <input class="w-x100 padd-top-x30 padd-bottom-x10 padd-inline-x15 bg-color1 shadow-3 color9"
+                        type="text" placeholder="service type">
+                    <span
+                        class="trans-250ms p-events-none p-absolute top-x0 left-x0 t-capitalize color9 padd-block-x10 padd-inline-x15 opacity-0-7">service
+                        type</span>
+                </div> <!-- End Service -->
+                <div class="message p-relative">
+                    <textarea class="w-x100 padd-top-x30 padd-bottom-x10 padd-inline-x15 bg-color1 shadow-3 color9"
+                        placeholder="message"></textarea>
+                    <span
+                        class="trans-250ms p-events-none p-absolute top-x0 left-x0 t-capitalize color9 padd-block-x10 padd-inline-x15 opacity-0-7">message</span>
+                </div> <!-- End Message -->
+                <input class="button-1 hover-color shadow-2 c-pointer j-self-center" type="submit" value="submit now">
+            </form> <!-- End Form -->
+        </div> <!-- End Container -->
+    </div> <!-- End Section Quote -->
+    <!-- Start Project -->
+    <div class="project padd-section">
+        <div class="section-header">
+            <span>our projects</span>
+            <h3>some of our wonderful projects</h3>
+        </div> <!-- End Section Header -->
+        <!-- For Effect -->
+        <input class="d-none" type="radio" id="all" name="effect" checked>
+        <input class="d-none" type="radio" id="complete-projects" name="effect">
+        <input class="d-none" type="radio" id="ongoing-projects" name="effect">
+        <div
+            class="container-labels w-fit marg-auto marg-bottom-x50 t-capitalize padd-block-x15 padd-inline-x20 bg-color1 color4 b-radius-x5 d-grid flow-column gap-x20 fw-600">
+            <label class="c-pointer p-relative trans-500ms" for="all">all</label>
+            <label class="c-pointer p-relative trans-500ms" for="complete-projects">complete projects</label>
+            <label class="c-pointer p-relative trans-500ms" for="ongoing-projects">ongoing projects</label>
+        </div>
+        <!-- End Effect -->
+        <div class="container d-grid gap-x25">
+            <div class="landscaping p-relative index-0 trans-500ms">
+                <img class="w-x100 h-x100 o-cover" src="images/service-1.jpg" alt="service-1">
+                <div
+                    class="box p-absolute left-x0 top-x0 w-x100 h-x100 d-grid p-content-center gap-x25 opacity-0 v-hidden index-1">
+                    <h3 class="t-capitalize fs-x24 color3">landscaping</h3>
+                    <div class="data d-grid flow-column j-content-center gap-x15">
+                        <button class="shadow-3 b-radius-circle trans-250ms c-pointer"><i
+                                class="fa-solid fa-eye color4 bg-color1 w-x50px h-x50px d-grid p-content-center b-radius-circle trans-500ms"></i></button>
+                        <button class="shadow-3 b-radius-circle trans-250ms c-pointer"><i
+                                class="fa-solid fa-link color4 bg-color1 w-x50px h-x50px d-grid p-content-center b-radius-circle trans-500ms"></i></button>
+                    </div> <!-- End Data -->
+                </div> <!-- End Box -->
+            </div> <!-- End Landscaping -->
+            <div class="pruning-plants p-relative index-0 trans-500ms">
+                <img class="w-x100 h-x100 o-cover" src="images/service-2.jpg" alt="service-2">
+                <div
+                    class="box p-absolute left-x0 top-x0 w-x100 h-x100 d-grid p-content-center gap-x25 opacity-0 v-hidden index-1">
+                    <h3 class="t-capitalize fs-x24 color3">pruning plants</h3>
+                    <div class="data d-grid flow-column j-content-center gap-x15">
+                        <button class="shadow-3 b-radius-circle trans-250ms c-pointer"><i
+                                class="fa-solid fa-eye color4 bg-color1 w-x50px h-x50px d-grid p-content-center b-radius-circle trans-500ms"></i></button>
+                        <button class="shadow-3 b-radius-circle trans-250ms c-pointer"><i
+                                class="fa-solid fa-link color4 bg-color1 w-x50px h-x50px d-grid p-content-center b-radius-circle trans-500ms"></i></button>
+                    </div> <!-- class="shadow-3 border-circle trans-250ms"End Data -->
+                </div> <!-- End Box -->
+            </div> <!-- End Pruning Plants -->
+            <div class="irrigation-drainage p-relative index-0 trans-500ms">
+                <img class="w-x100 h-x100 o-cover" src="images/service-3.jpg" alt="service-3">
+                <div
+                    class="box p-absolute left-x0 top-x0 w-x100 h-x100 d-grid p-content-center gap-x25 opacity-0 v-hidden index-1">
+                    <h3 class="t-capitalize fs-x24 color3">irrigation & drainage</h3>
+                    <div class="data d-grid flow-column j-content-center gap-x15">
+                        <button class="shadow-3 b-radius-circle trans-250ms c-pointer"><i
+                                class="fa-solid fa-eye color4 bg-color1 w-x50px h-x50px d-grid p-content-center b-radius-circle trans-500ms"></i></button>
+                        <button class="shadow-3 b-radius-circle trans-250ms c-pointer"><i
+                                class="fa-solid fa-link color4 bg-color1 w-x50px h-x50px d-grid p-content-center b-radius-circle trans-500ms"></i></button>
+                    </div> <!-- End Data -->
+                </div> <!-- End Box -->
+            </div> <!-- End Irrigation & Drainage -->
+            <div class="garden-maintenance p-relative index-0 trans-500ms">
+                <img class="w-x100 h-x100 o-cover" src="images/service-4.jpg" alt="service-4">
+                <div
+                    class="box p-absolute left-x0 top-x0 w-x100 h-x100 d-grid p-content-center gap-x25 opacity-0 v-hidden index-1">
+                    <h3 class="t-capitalize fs-x24 color3">garden maintenance</h3>
+                    <div class="data d-grid flow-column j-content-center gap-x15">
+                        <button class="shadow-3 b-radius-circle trans-250ms c-pointer"><i
+                                class="fa-solid fa-eye color4 bg-color1 w-x50px h-x50px d-grid p-content-center b-radius-circle trans-500ms"></i></button>
+                        <button class="shadow-3 b-radius-circle trans-250ms c-pointer"><i
+                                class="fa-solid fa-link color4 bg-color1 w-x50px h-x50px d-grid p-content-center b-radius-circle trans-500ms"></i></button>
+                    </div> <!-- End Data -->
+                </div> <!-- End Box -->
+            </div> <!-- End Garden Maintenance -->
+            <div class="green-technology p-relative index-0 trans-500ms">
+                <img class="w-x100 h-x100 o-cover" src="images/service-5.jpg" alt="service-5">
+                <div
+                    class="box p-absolute left-x0 top-x0 w-x100 h-x100 d-grid p-content-center gap-x25 opacity-0 v-hidden index-1">
+                    <h3 class="t-capitalize fs-x24 color3">green technology</h3>
+                    <div class="data d-grid flow-column j-content-center gap-x15">
+                        <button class="shadow-3 b-radius-circle trans-250ms c-pointer"><i
+                                class="fa-solid fa-eye color4 bg-color1 w-x50px h-x50px d-grid p-content-center b-radius-circle trans-500ms"></i></button>
+                        <button class="shadow-3 b-radius-circle trans-250ms c-pointer"><i
+                                class="fa-solid fa-link color4 bg-color1 w-x50px h-x50px d-grid p-content-center b-radius-circle trans-500ms"></i></button>
+                    </div> <!-- End Data -->
+                </div> <!-- End Box -->
+            </div> <!-- End Green Technology -->
+            <div class="urban-gardening p-relative index-0 trans-500ms">
+                <img class="w-x100 h-x100 o-cover" src="images/service-6.jpg" alt="service-6">
+                <div
+                    class="box p-absolute left-x0 top-x0 w-x100 h-x100 d-grid p-content-center gap-x25 opacity-0 v-hidden index-1">
+                    <h3 class="t-capitalize fs-x24 color3">urban gardening</h3>
+                    <div class="data d-grid flow-column j-content-center gap-x15">
+                        <button class="shadow-3 b-radius-circle trans-250ms c-pointer"><i
+                                class="fa-solid fa-eye color4 bg-color1 w-x50px h-x50px d-grid p-content-center b-radius-circle trans-500ms"></i></button>
+                        <button class="shadow-3 b-radius-circle trans-250ms c-pointer"><i
+                                class="fa-solid fa-link color4 bg-color1 w-x50px h-x50px d-grid p-content-center b-radius-circle trans-500ms"></i></button>
+                    </div> <!-- End Data -->
+                </div> <!-- End Box -->
+            </div> <!-- End Urban Gardening -->
+        </div> <!-- End Container -->
+    </div> <!-- End Project -->
+    <!-- Start Team Section -->
+    <div class="team-section padd-section">
+        <div class="section-header">
+            <span>our team</span>
+            <h3>dedicated & experienced team members</h3>
+        </div> <!-- End Section Header -->
+        <div class="container d-grid gap-x25">
+            <div class="team-1 p-relative o-hidden">
+                <img class="w-x100 h-x100 o-cover" src="images/team-1.jpg" alt="team-1">
+                <div
+                    class="data p-absolute left-x0 bottom-x45px bg-color3 padd-x30 w-x90 t-capitalize t-latex-x-100 trans-500ms">
+                    <h3 class=" fs-x24 color2 fw-600">doris jordan</h3>
+                    <span class="color4 fw-500 marg-top-x5 marg-bottom-x15 d-block">landscape designer</span>
+                    <ul class="d-grid flow-column j-content-start gap-x10">
+                        <li><a class="color4 bg-color1 w-x40px h-x40px d-grid p-content-center b-radius-circle shadow-3 trans-500ms"
+                                href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a class="color4 bg-color1 w-x40px h-x40px d-grid p-content-center b-radius-circle shadow-3 trans-500ms"
+                                href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a class="color4 bg-color1 w-x40px h-x40px d-grid p-content-center b-radius-circle shadow-3 trans-500ms"
+                                href=""><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div> <!-- End Data -->
+            </div> <!-- End Team 1 -->
+            <div class="team-2 p-relative o-hidden">
+                <img class="w-x100 h-x100 o-cover" src="images/team-2.jpg" alt="team-2">
+                <div
+                    class="data p-absolute left-x0 bottom-x45px bg-color3 padd-x30 w-x90 t-capitalize t-latex-x-100 trans-500ms">
+                    <h3 class=" fs-x24 color2 fw-600">johnny ramirez</h3>
+                    <span class="color4 fw-500 marg-top-x5 marg-bottom-x15 d-block">garden designer</span>
+                    <ul class="d-grid flow-column j-content-start gap-x10">
+                        <li><a class="color4 bg-color1 w-x40px h-x40px d-grid p-content-center b-radius-circle shadow-3 trans-500ms"
+                                href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a class="color4 bg-color1 w-x40px h-x40px d-grid p-content-center b-radius-circle shadow-3 trans-500ms"
+                                href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a class="color4 bg-color1 w-x40px h-x40px d-grid p-content-center b-radius-circle shadow-3 trans-500ms"
+                                href=""><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div> <!-- End Data -->
+            </div> <!-- End Team 2 -->
+            <div class="team-3 p-relative o-hidden">
+                <img class="w-x100 h-x100 o-cover" src="images/team-3.jpg" alt="team-3">
+                <div
+                    class="data p-absolute left-x0 bottom-x45px bg-color3 padd-x30 w-x90 t-capitalize t-latex-x-100 trans-500ms">
+                    <h3 class=" fs-x24 color2 fw-600">diana wagner</h3>
+                    <span class="color4 fw-500 marg-top-x5 marg-bottom-x15 d-block">senior gardener</span>
+                    <ul class="d-grid flow-column j-content-start gap-x10">
+                        <li><a class="color4 bg-color1 w-x40px h-x40px d-grid p-content-center b-radius-circle shadow-3 trans-500ms"
+                                href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a class="color4 bg-color1 w-x40px h-x40px d-grid p-content-center b-radius-circle shadow-3 trans-500ms"
+                                href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a class="color4 bg-color1 w-x40px h-x40px d-grid p-content-center b-radius-circle shadow-3 trans-500ms"
+                                href=""><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div> <!-- End Data -->
+            </div> <!-- End Team 3 -->
+        </div> <!-- End Container -->
+    </div> <!-- End Team Section -->
+    <!-- Start Testimonial -->
+    <div class="testimonial padd-section">
+        <div class="container d-grid a-items-start gap-x50">
+            <div class="box d-grid gap-x20">
+                <span class="color4 fw-700 fs-x18 t-capitalize">testimonial</span>
+                <h3 class="fs-x50 t-capitalize color2">what our clients say about us!</h3>
+                <p class="color9 line-1-5">
+                    Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat
+                    ipsum et lorem et sit sed stet lorem sit clita duo justo.
+                </p>
+                <button class="button-1 hover-color shadow-2 marg-top-x10 c-pointer">see more</button>
+            </div> <!-- End Box -->
+            <div class="box p-relative">
+                <input class="d-none" type="radio" name="testimonial" id="start" checked>
+                <input class="d-none" type="radio" name="testimonial" id="end">
+                <div class="labels p-absolute left-x0 d-grid flow-column gap-x15">
+                    <label class="fa-solid fa-chevron-left color4 bg-color1 w-x45px h-x45px d-grid p-content-center fs-x20 c-pointer b-radius-x3 trans-500ms" for="start"></label>
+                    <label class="fa-solid fa-chevron-right color4 bg-color1 w-x45px h-x45px d-grid p-content-center fs-x20 c-pointer b-radius-x3 trans-500ms" for="end"></label>
+                </div>
+                <div class="container-testimonial d-grid o-hidden">
+                    <div class="testimonial-1 d-grid gap-x10 padd-inline-x10 trans-1s">
+                        <div class="image">
+                            <img class=" b-radius-x3" src="images/testimonial-1.jpg" alt="testimonial-1">
+                        </div> <!-- End Image -->
+                        <p class="line-1-5 fs-x18">
+                            Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem
+                            lorem magna ut et, nonumy et labore et tempor diam tempor erat.
+                        </p>
+                        <h3 class="t-capitalize color2 fs-x24 fw-600">client name</h3>
+                        <span class="t-capitalize color9">profession</span>
+                    </div> <!-- End Testimonial 1 -->
+                    <div class="testimonial-2 d-grid gap-x10 padd-inline-x10 trans-1s">
+                        <div class="image">
+                            <img class=" b-radius-x3" src="images/testimonial-2.jpg" alt="testimonial-2">
+                        </div> <!-- End Image -->
+                        <p class="line-1-5 fs-x18">
+                            Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem
+                            lorem magna ut et, nonumy et labore et tempor diam tempor erat.
+                        </p>
+                        <h3 class="t-capitalize color2 fs-x24 fw-600">client name</h3>
+                        <span class="t-capitalize color9">profession</span>
+                    </div> <!-- End Testimonial 2 -->
+                </div>
+            </div> <!-- End Box -->
+        </div> <!-- End Container -->
+    </div> <!-- End Testimonial -->
+    <!-- Start Footer -->
+    <footer class="footer bg-color2 marg-top-x50">
+        <div class="container d-grid gap-x50">
+            <div class="our-office">
+                <h4 class="t-capitalize color3 fs-x24 marg-bottom-x30">our office</h4>
+                <div class="location d-grid flow-column j-content-start gap-x15 color1 fw-500 a-items-center">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span class="t-capitalize">123 street, new york, <span class="t-uppercase">usa</span></span>
+                </div> <!-- End Location -->
+                <div class="phone d-grid flow-column j-content-start gap-x15 color1 fw-500 a-items-center marg-block-x15">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+012 345 67890</span>
+                </div> <!-- End Phone -->
+                <div class="email d-grid flow-column j-content-start gap-x15 color1 fw-500 a-items-center">
+                    <i class="fa-solid fa-envelope"></i>
+                    <a class="color3" href="mailto:info@example.com">info@example.com</a>
+                </div> <!-- End Email -->
+                <ul class="links d-grid flow-column j-content-start gap-x10 marg-top-x20">
+                    <li><a class="w-x40px h-x40px b-radius-circle color1 b-width-1px b-solied d-grid p-content-center trans-500ms" href=""><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a class="w-x40px h-x40px b-radius-circle color1 b-width-1px b-solied d-grid p-content-center trans-500ms" href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a class="w-x40px h-x40px b-radius-circle color1 b-width-1px b-solied d-grid p-content-center trans-500ms" href=""><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a class="w-x40px h-x40px b-radius-circle color1 b-width-1px b-solied d-grid p-content-center trans-500ms" href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                </ul> <!-- End Links -->
+            </div> <!-- End Our Office -->
+            <div class="services">
+                <h4 class="t-capitalize color3 fs-x24 marg-bottom-x30">services</h4>
+                <ul class="d-grid gap-x15 t-capitalize">
+                    <li><a class="color1 d-grid flow-column j-content-start a-items-center gap-x10 fw-500 trans-250ms shadow-3 b-radius-x3" href="">landscaping</a></li>
+                    <li><a class="color1 d-grid flow-column j-content-start a-items-center gap-x10 fw-500 trans-250ms shadow-3 b-radius-x3" href="">pruning plants</a></li>
+                    <li><a class="color1 d-grid flow-column j-content-start a-items-center gap-x10 fw-500 trans-250ms shadow-3 b-radius-x3" href="">urban gardening</a></li>
+                    <li><a class="color1 d-grid flow-column j-content-start a-items-center gap-x10 fw-500 trans-250ms shadow-3 b-radius-x3" href="">garden maintenance</a></li>
+                    <li><a class="color1 d-grid flow-column j-content-start a-items-center gap-x10 fw-500 trans-250ms shadow-3 b-radius-x3" href="">green technology</a></li>
+                </ul>
+            </div> <!-- End Services -->
+            <div class="quick-links">
+                <h4 class="t-capitalize color3 fs-x24 marg-bottom-x30">quick links</h4>
+                <ul class="d-grid gap-x15 t-capitalize">
+                    <li><a class="color1 d-grid flow-column j-content-start a-items-center gap-x10 fw-500 trans-250ms shadow-3 b-radius-x3" href="">about us</a></li>
+                    <li><a class="color1 d-grid flow-column j-content-start a-items-center gap-x10 fw-500 trans-250ms shadow-3 b-radius-x3" href="">contact us</a></li>
+                    <li><a class="color1 d-grid flow-column j-content-start a-items-center gap-x10 fw-500 trans-250ms shadow-3 b-radius-x3" href="">our services</a></li>
+                    <li><a class="color1 d-grid flow-column j-content-start a-items-center gap-x10 fw-500 trans-250ms shadow-3 b-radius-x3" href="">terms & condition</a></li>
+                    <li><a class="color1 d-grid flow-column j-content-start a-items-center gap-x10 fw-500 trans-250ms shadow-3 b-radius-x3" href="">support</a></li>
+                </ul>
+            </div> <!-- End Quick Links -->
+            <div class="newsletter">
+                <h4 class="t-capitalize color3 fs-x24 marg-bottom-x30">newsletter</h4>
+                <p class="color1 line-1-5 marg-bottom-x20">Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                <form class="p-relative">
+                    <input class="bg-color1 w-x100 padd-block-x20 padd-inline-x25 b-radius-x3 shadow-3 trans-250ms" type="email" placeholder="Your email">
+                    <input class="button-1 hover-color shadow-2 c-pointer p-absolute p-center-y right-x10px" type="button" value="SignUp">
+                </form>
+            </div>
+        </div> <!-- End Container -->
+    </footer> <!-- End Footer -->
+    <!-- Start Copyright -->
+    <div class="copyright bg-color2 padd-block-x25">
+        <div class="container d-grid flow-column j-content-between color1 t-capitalize fw-500">
+            <div class="site line-1-5">
+                &#169;
+                <a class="color1" href="">your site name,</a>
+                all right reserved.
+            </div> <!-- End Site -->
+            <div class="codex">
+                designed by
+                <a class="color1" href="https://htmlcodex.com/" target="_blank"><span class="t-uppercase">html</span> codex</a>
+            </div> <!-- End Codex -->
+        </div> <!-- End Container -->
+    </div> <!-- End Copyright -->
+</body>
+
+</html>

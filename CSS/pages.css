@@ -1,0 +1,145 @@
+/* Start Section Home */
+.section-home {
+    min-height: auto;
+}
+
+.section-home .box-1 {
+    height: 320px;
+}
+
+.section-home .box-1 h2 {
+    font-size: 65px;
+}
+
+.section-home .box-1 .text ul li:nth-child(2)::before,
+.section-home .box-1 .text ul li:nth-child(2)::after {
+    content: "/";
+    color: var(--mainColor-1);
+}
+
+/* End Section Home */
+/* Start Top Feature */
+.top-feature {
+    margin-top: 0;
+    padding: 0;
+}
+
+/* End Top Feature */
+/* Start Section Quote */
+.section-quote {
+    background: var(--mainColor-3);
+    padding-block: 50px;
+    margin-block: 0;
+}
+
+.section-quote::before {
+    content: none;
+}
+
+@media (max-width: 500px) {
+    .section-quote h3 {
+        font-size: 30px;
+    }
+}
+
+/* End Section Quote */
+/* Start Section Error 404 */
+.error-404 .container {
+    max-width: 650px;
+}
+
+@media (max-width: 767px) {
+    .error-404 i,
+    .error-404 h2 {
+        font-size: 40px;
+    }
+
+    .error-404 span {
+        font-size: 24px;
+    }
+}
+
+/* End Section Error 404 */
+/* Start Contact */
+.contact .container {
+    grid-template-columns: repeat(2, calc((100% - 50px) / 2));
+}
+
+.contact .container .box p a:hover {
+    color: #2a722d;
+}
+
+.contact form {
+    grid-template-columns: repeat(2, calc((100% - 15px) / 2));
+}
+
+.contact form input:not(input[type=submit], input[type=submit]),
+.contact form textarea {
+    transition: box-shadow 250ms;
+    border: 1px solid #ced4da;;
+}
+
+.contact form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.contact form .message,
+.contact form .subject,
+.contact form input[type=submit] {
+    grid-column-start: span 2;
+}
+
+.contact form>div span {
+    transform: scale(.85);
+    transform-origin: left;
+}
+
+.contact form>div input:placeholder-shown+span,
+.contact form>div textarea:placeholder-shown+span {
+    transform: scale(1);
+    padding: 20px 15px;
+    opacity: 1;
+}
+
+.contact form>div input::placeholder,
+.contact form>div textarea::placeholder {
+    color: transparent;
+}
+
+.contact form>div input:focus+span,
+.contact form>div textarea:focus+span {
+    transform: scale(.85);
+    padding: 10px 15px;
+    opacity: .7;
+}
+
+@media (max-width: 991px) {
+    .contact .container {
+        grid-template-columns: auto;
+    }
+
+    .contact .container iframe {
+        height: 450px;
+    }
+}
+
+@media (max-width: 757px) {
+    .contact form {
+        grid-template-columns: auto;
+    }
+
+    .contact form .message,
+    .contact form .subject,
+    .contact form input[type=submit] {
+        grid-column-start: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .contact .container .box h3 {
+        font-size: 30px;
+    }
+}
+
+/* End Contact */
